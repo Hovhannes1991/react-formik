@@ -1,0 +1,14 @@
+button.form_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:  10px;
+}
+
+button.form_button.is_loading {
+    pointer-events: none;
+    cursor: default;
+    &:hover {
+        background-color: var(--main-blue);
+    }
+}
