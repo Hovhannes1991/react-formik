@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import { AppForm } from "./components/AppForm/AppForm";
+// import { CustomForm } from "./components/CustomForm/CustomForm";
+import { CustomFormBoilerplate } from "./components/CustomFormBoilerplate/CustomFormBoilerplate";
 
 function App() {
   return (
     <div className="App">
-      <AppForm />
+      {/* <CustomForm /> */}
+      <CustomFormBoilerplate />
     </div>
   );
 }
